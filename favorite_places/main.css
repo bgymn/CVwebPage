@@ -1,0 +1,30 @@
+html,body,#viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+
+      #optionsDiv {
+        position: absolute;
+        bottom: 17px;
+        width: 100%;
+        padding: 20px 0;
+        z-index: 1;
+        text-align: center;
+      }
+
+      button {
+        background: white;
+        padding: 7px;
+        border: 1px solid #005e95;
+        font-size: 0.9em;
+        margin: 5px;
+        color: #005e95;
+      }
+
+      button: hover {
+        background: #005e95;
+        color: white;
+        cursor: pointer;
+      }
