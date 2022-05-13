@@ -5,8 +5,8 @@ require([
   "esri/Basemap",
   "esri/layers/FeatureLayer",
   "esri/widgets/LayerList",
-    "esri/request",
-    "esri/Graphic",
+  "esri/request",
+  "esri/Graphic",
   "dojo/domReady!" // will not be called until DOM is ready
   ], function (
   Map,
@@ -15,8 +15,8 @@ require([
   Basemap,
   FeatureLayer,
   LayerList, 
-   request,
-   Graphic
+  request,
+  Graphic
   ) {
 
     const satelliteLayer = new TileLayer({
