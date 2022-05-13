@@ -15,7 +15,7 @@ require([
   Basemap,
   FeatureLayer,
   LayerList, 
-  esriRequest,
+  request,
   Graphic
   ) {
 
